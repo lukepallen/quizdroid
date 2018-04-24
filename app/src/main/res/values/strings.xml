@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QuizDroid</string>
+    <string name="title_activity_questions">Questions</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="topic_math">Math</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_marvel">Marvel Super Heroes</string>
+    <string name="ov_math">This quiz section consists of a question within the field of mathematics</string>
+    <string name="ov_physics">This quiz section will test your knowledge of the science of physics</string>
+    <string name="ov_marvel">This quiz section gives you the chance to show off your marvel comic knowledge</string>
+    <string name="ov_questions">There will be 1 question \n Press begin when you are ready to start!</string>
+    <string name="begin">Begin</string>
+    <string name="q_math_1">An orchestra of 120 players performs Beethoven\'s 9th Symphony in 40 minutes, how long would it take for 60 players to perform the same piece?</string>
+    <string name="q_math_1_1">80 minutes</string>
+    <string name="q_math_1_2">60 minutes</string>
+    <string name="q_math_1_3">20 minutes</string>
+    <string name="q_math_1_4">40 minutes</string>
+    <string name="q_phys_1">What kind of energy does a boulder on the edge of a cliff represent?</string>
+    <string name="q_phys_1_1">Kinetic Energy</string>
+    <string name="q_phys_1_2">Thermal Energy</string>
+    <string name="q_phys_1_3">Potential Energy</string>
+    <string name="q_phys_1_4">Chemical Energy</string>
+    <string name="q_marvel_1">What vehicle is the Avenger\'s primary mode of transportation?</string>
+    <string name="q_marvel_1_1">A bus</string>
+    <string name="q_marvel_1_2">The Quinjet</string>
+    <string name="q_marvel_1_3">The Blackbird</string>
+    <string name="q_marvel_1_4">The Blackhawk</string>
+    <string name="submit">Submit</string>
+    <string name="correct">You are correct!</string>
+    <string name="incorrect">Sorry but the right answer was: %s</string>
+    <string name="OneOfOne">You got 1 out of 1 correct</string>
+    <string name="ZeroOfOne">You got 0 out of 1 correct</string>
+    <string name="finish">Finish</string>
+
+</resources>
