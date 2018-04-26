@@ -2,40 +2,54 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topicOverview_fragment_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Answer">
+    tools:context=".TopicOverviewFrag">
 
+    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/a_correct"
+        android:id="@+id/ov_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
         android:textAppearance="@android:style/TextAppearance.Holo.Large"
-        app:layout_constraintBottom_toTopOf="@+id/a_right"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/a_right"
+        android:id="@+id/ov_body"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text=""
         android:textAppearance="@android:style/TextAppearance.Holo.Medium"
-        app:layout_constraintBottom_toTopOf="@+id/a_finish"
+        app:layout_constraintBottom_toTopOf="@+id/ov_q_summary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/a_correct" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/a_finish"
-        style="@android:style/Widget.Holo.Button"
+    <TextView
+        android:id="@+id/ov_q_summary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/finish"
+        android:gravity="center"
+        android:text="@string/ov_questions"
+        android:textAppearance="@android:style/TextAppearance.Holo.Small"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/a_right" />
+        app:layout_constraintTop_toBottomOf="@+id/ov_body" />
+
+    <Button
+        android:id="@+id/ov_begin"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/begin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

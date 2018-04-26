@@ -17,7 +17,7 @@ class Topics : AppCompatActivity() {
     }
 
     private fun loadTopic(v: View) {
-        val i = Intent(this,TopicOverview::class.java)
+        val i = Intent(this,Quiz::class.java)
         when(v.id) {
             R.id.topMath_id -> i.putExtra("topic", "Math")
             R.id.topPhys_id -> i.putExtra("topic", "Physics")

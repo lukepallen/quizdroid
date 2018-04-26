@@ -2,10 +2,10 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/questions_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Questions">
-
+    tools:context=".QuestionsFrag">
 
     <TextView
         android:id="@+id/q_question"
@@ -24,7 +24,7 @@
         android:layout_height="225dp"
         android:layout_marginEnd="48dp"
         android:layout_marginStart="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/q_submit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/q_question">
@@ -64,9 +64,10 @@
         android:layout_width="89dp"
         android:layout_height="wrap_content"
         android:text="@string/submit"
-        android:visibility="gone"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/q_answers" />
+
 </android.support.constraint.ConstraintLayout>
